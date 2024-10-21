@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-color: #f5f7fa;
+    color: #2e3d49;
+}
+h1, h2 {
+    color: #3a7ca5;
+}
+section h2{
+    text-align: center;
+}
+.navbar {
+    background-color: #3a7ca5;
+}
+.navbar .nav-link {
+    color: #f5f7fa;
+}
+.navbar .nav-link:hover {
+    background-color: #2e3d49;
+    border-radius: 5px;
+}
+.navbar-brand {
+    color: #f5f7fa;
+}
+footer {
+    background-color: #3a7ca5;
+    color: #f5f7fa;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Esto asegura que el footer siempre esté al final */
+}
+section {
+    background-color: #d1e7f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.container {
+    flex: 1;
+    /* padding: 20px; */
+}
+p {
+    text-align: justify;
+}
+.row{
+    justify-content: space-around;
+}
+.navbar-brand img {
+    width: 6rem;
+    border-radius: 50%;
+}
+.footer-image {
+    width: 7%;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+.divide {
+    display: flex;
+    justify-content: space-between;
+}
+nav .container-fluid div {
+    font-size: 1.5rem;
+}
+.color-box {
+    width: 100%;
+    height: 100px; /* Altura del cuadro de color */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 10px 0;
+}
+.color-row {
+    display: flex;
+    justify-content: center; /* Centrar la fila de colores */
+    align-items: center;
+    flex-wrap: wrap; /* Permitir que los cuadros se muevan a la siguiente línea si es necesario */
+    flex-direction: column;
+}
+.color-item {
+    width: 30%; /* Ancho del cuadro de color */
+    margin: 10px; /* Espaciado entre cuadros */
+    text-align: center; /* Centrar el texto */
+}
+
+@media (max-width: 680px) {
+    .form{
+        padding: 5%;
+    }
+    .footer-image {
+        width: 30%;
+    }
+    .text-footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .divide{
+        display: block;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
