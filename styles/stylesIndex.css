@@ -90,6 +90,8 @@ nav .container-fluid div {
     height: 100px; /* Altura del cuadro de color */
     border-radius: 8px; /* Bordes redondeados */
     margin: 10px 0;
+    color: #ffffff;
+    align-content: center;
 }
 .color-row {
     display: flex;
