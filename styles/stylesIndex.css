@@ -104,9 +104,16 @@ nav .container-fluid div {
     text-align: center; /* Centrar el texto */
 }
 
-button {
-    background-color: #f2f2f2;
+.my-custom-btn {
+    background-color: #f2f2f2; /* Color de fondo personalizado */
+    /* color: #fff; */
+    border: none; /* Sin borde */
 }
+
+.my-custom-btn:hover {
+    background-color: #c89a0d; /* Color al pasar el mouse */
+}
+
 
 @media (max-width: 680px) {
     .form{
