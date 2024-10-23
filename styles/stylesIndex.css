@@ -101,9 +101,9 @@ nav .container-fluid div {
     flex-direction: column;
 }
 .color-item {
-    width: 30%; /* Ancho del cuadro de color */
-    margin: 10px; /* Espaciado entre cuadros */
-    text-align: center; /* Centrar el texto */
+    width: 30%; 
+    margin: 10px; 
+    text-align: center; 
 }
 
 .my-custom-btn {
@@ -140,6 +140,9 @@ section img {
     .footer-content {
         flex-direction: column;
         align-items: center;
+    }
+    .color-item {
+        width: 70%; 
     }
   }
 
