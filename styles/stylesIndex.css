@@ -115,6 +115,9 @@ nav .container-fluid div {
 .my-custom-btn:hover {
     background-color: #c89a0d; /* Color al pasar el mouse */
 }
+section img {
+    width: 100%;
+}
 
 
 @media (max-width: 680px) {
@@ -130,6 +133,9 @@ nav .container-fluid div {
     }
     .divide{
         display: block;
+    }
+    .divide p {
+        text-align: center;
     }
     .footer-content {
         flex-direction: column;
