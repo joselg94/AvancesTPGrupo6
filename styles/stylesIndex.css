@@ -164,6 +164,9 @@ section img {
 .description{
     margin: 2rem 0rem;
 }
+.mb-4{
+    margin-top: 1rem;
+}
 
 
 @media (max-width: 680px) {
@@ -176,6 +179,7 @@ section img {
     .text-footer {
         display: flex;
         flex-direction: column;
+        /* text-align: center; */
     }
     .divide{
         display: block;
@@ -189,6 +193,9 @@ section img {
     }
     .color-item {
         width: 70%; 
+    }
+    .text-footer p{
+        text-align: center;
     }
   }
 
